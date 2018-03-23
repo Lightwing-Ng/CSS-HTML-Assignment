@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    color: #666;
+    background: #fff;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    margin-left: 103.5px;
+}
+
+.top {
+    background: #F1F1F1;
+    width: 1200px;
+    height: 40px;
+}
+
+.top_left {
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    text-align: -webkit-match-parent;
+    padding: 7px 5px 0 15px;
+}
+
+.top_right {
+    float: right;
+    height: 30px;
+    margin-right: 10px;
+    text-align: -webkit-match-parent;
+    padding: 7px 5px 0 0;
+
+}
+
+.ShoopingCart {
+    width: 120px;
+    float: left;
+    height: 34px;
+    margin-top: 8px;
+    border: 1px solid #DFDFDF;
+    padding: 10px 28px 10px 28px;
+    background: #F9F9F9;
+    text-align: center;
+    line-height: 34px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.ci_left {
+    top: 16px;
+    left: 5px;
+    bottom: 8px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background: url("../../static/img/jd2015img.png") 0 -58px no-repeat;
+    right: 30px;
+}
+
+.searh {
+    float: left;
+    margin-left: 100px;
+    color: rgb(153, 153, 153);
+    width: 446px;
+    border-width: 2px 0 2px 2px;
+    border-color: #B61D1D;
+    margin-top: 8px;
+    height: 36px;
+    border-style: solid;
+    padding: 4px;
+    outline: 0;
+    font-size: 1em;
+}
+
+.searh_btn {
+    width: 82px;
+    float: left;
+    height: 48px;
+    margin-top: 8px;
+    background: #B61D1D;
+    border: none;
+    line-height: 1;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hot_key {
+    float: left;
+    margin-left: 100px;
+    width: 688px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.hot_key a {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 2px;
+    float: left;
+}
+
+.red_key {
+    color: #C81623;
+}
+
+.cls {
+    clear: both;
+}
+
+.nav {
+    height: 44px;
+    margin-left: 0;
+    width: 1457px;
+    border-bottom: 2px solid #B1191A;
+}
+
+.nav .w {
+    position: relative;
+    z-index: 9;
+    height: 44px;
+    margin: 0 auto;
+    margin-left: 103.5px;
+    width: 1250px;
+}
+
+.w .main_menu {
+    display: block;
+    width: 190px;
+    height: 44px;
+    padding: 0 10px;
+    background: #B1191A;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+}
+
+.w .menu {
+    height: 44px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font: 400 15px/44px "Microsoft Yahei";
+    color: #333;
+}
+
+.bottom {
+    width: 1350px;
+}
+
+.left {
+
+    float: left;
+    margin-left: 103.5px;
+    margin-right: 0;
+    width: 210px;
+}
+
+.left_menu {
+    border-left: 1px solid #b61d1d;
+    color: #fff;
+    height: 466px;
+    padding: 0 10px;
+    background: #c81623;
+    padding-bottom: 10px;
+    border-top-width: 10px;
+}
+
+.left_menu .item {
+    border-left: 1px solid #b61d1d;
+    position: relative;
+    padding: 10px 0;
+
+}
+
+.left_menu a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.left_menu .gt {
+    position: absolute;
+    top: 10px;
+    right: 1px;
+}
+
+.today {
+    margin-top: 3em;
+}
+
+.right {
+    float: left;
+    width: 1030px;
+    display: block;
+}
+
+.crumbs_bar {
+    width: 800px;
+    padding-top: 15px;
+    padding-left: 10px;
+    /*margin-bottom: 0px;*/
+    /*margin-left: 0px;*/
+}
+
+.selector {
+    width: auto;
+    border-top: 1px solid #DDD;
+    background: #FFF;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.selector .sl_wrap {
+    line-height: 34px;
+    width: 800px;
+    border-bottom: 1px solid #DDD;
+    background: #f3f3f3;
+}
+
+.selector .sl_key {
+    float: left;
+    width: 100px;
+    padding-left: 10px;
+}
+
+.selector .sl_value {
+    width: 800px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+}
+
+.selector .sl_value a {
+    padding-right: 20px;
+}
+
+.goodslist {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.goodslist .item {
+    width: 240px;
+    height: 436px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.goodslist .img_div {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.goodslist .price_div {
+    width: 100%;
+    height: 22px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.goodslist .price_div strong {
+    float: left;
+    margin-right: 10px;
+    padding-left: 10px;
+    color: #e4393c;
+    font-size: 1.25em;
+    font-weight: 400;
+    font-family: "CamingoCode";
+
+}
+
+.goodslist .price_div strong em {
+    font-size: 1em;
+    font-style: normal;
+}
+
+.goodslist img {
+    width: 220px;
+    height: 220px;
+}
+
+.goodslist .icon {
+    background: url(../../static/img/price.png) no-repeat 0 0;
+    position: absolute;
+    top: 2px;
+    left: 100px;
+    width: 16px;
+    height: 16px;
+
+}
+
+.goodslist .pingjia {
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+
+.goodslist .pingjia strong {
+    color: #005aa0;
+    font-family: "CamingoCode";
+    font-weight: 700;
+}
+
+.operate {
+    margin-bottom: 10px;
+}
+
+.operate .duibi {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #DDD;
+    padding: 0 3px 0 3px;
+    position: relative;
+    background: #fff;
+    color: #999;
+}
+
+.operate .guanzhu {
+    padding-left: 24px;
+}
+
+.operate .duibi input {
+    float: left;
+    margin-top: 7px;
+}
+
+.operate .i-guanzhu {
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+    background: url(../../static/img/icon.png) no-repeat 0 -413px;
+}
+
+.operate .i-gouwuche {
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+    background: url(../../static/img/icon.png) no-repeat 0 -244px;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid #999;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer main {
+    margin-left: 0;
+    width: 800px;
+}

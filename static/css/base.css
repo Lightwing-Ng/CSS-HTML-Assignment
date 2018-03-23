@@ -1,0 +1,107 @@
+body, td, th {
+    font-family: "Microsoft YaHei UI Light";
+}
+
+.main_div {
+    padding: 30px 50px 100px 50px;
+    width: 900px;
+    height: 600px;
+}
+
+.clause {
+    height: 28em;
+    overflow-y: scroll;
+    border: 1px solid #7F9DB9;
+    padding: 8px 15px;
+    width: 800px;
+}
+
+.clause.title {
+    text-align: center;
+}
+
+.clause p {
+    text-indent: 2em;
+}
+
+.bt_div {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn {
+    color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    background: rgb(240, 14, 34);
+    border: 0;
+    font-size: 1.2em;
+    width: 180px;
+}
+
+.link {
+    width: 800px;
+    text-align: center;
+    padding: 5px;
+}
+
+.link span {
+    color: #7F9DB9;
+}
+
+.header {
+    width: 1000px;
+    height: 70px;
+    padding-bottom: 1em;
+    background: url("../../static/img/headbg.jpg") repeat-x left bottom;
+}
+
+.header .title {
+    font-size: 24px;
+    font-family: "Microsoft YaHei UI";
+    bottom: 10px;
+    border-left: solid 1px #bbb;
+    padding-left: 1em;
+    float: left;
+    margin-top: 30px;
+    margin-left: 36px;
+}
+
+.logo {
+    float: left;
+    text-decoration: none;
+}
+
+.form_item {
+    border: solid 1px #ddd;
+    width: 400px;
+    height: 50px;
+    margin: 0 200px 10px 200px;
+}
+
+.item_lebal {
+    float: left;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+
+.form_item .field {
+    border: 0 none;
+    font-size: 14px;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+    outline: 0;
+}
+
+.form_item div {
+    padding-top: 1em;
+    padding-left: 125px;
+}
+
+.register {
+    align-items: center;
+}

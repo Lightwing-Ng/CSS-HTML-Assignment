@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="keywords"
+          content="京东JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!">
+    <link rel="icon" href="static/img/JD_2017_logo.png">
+    <title>京东商城-个人注册</title>
+    <link rel="stylesheet" href="static/css/base.css">
+    <style>
+        body {
+            font-family: "Microsoft YaHei UI";
+        }
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <a class="logo" href="index.html">
+        <img src="static/img/logo.jpg"/>
+    </a>
+    <div class="title">
+        欢迎注册
+    </div>
+</div>
+
+<div class="main_div">
+    <form class="register" action="http://10.0.4.42:8000/django_form/" enctype="multipart/form-data" method="post">
+        <div class="form_item">
+            <label class="item_lebal" for="username">
+                用 户 名
+            </label>
+            <input id="username" class="field" name="username">
+        </div>
+        <div class="form_item">
+            <label class="item_lebal" for="password">
+                密&nbsp;&nbsp;码
+            </label>
+            <input class="field" id="password" name="password" type="password">
+        </div>
+        <div class="form_item">
+            <label class="item_lebal" for="passwordrepeat">
+                确认密码
+            </label>
+            <input class="field" id="passwordrepeat" name="passwordrepeat" type="password">
+        </div>
+        <div class="form_item">
+            <label class="item_lebal" for="province">
+                省&nbsp;&nbsp;份
+            </label>
+            <div>
+                <select id="province" name="province" style="border:  0 none; width: 190px; font-size: 1em; font-family: 'Microsoft YaHei UI Light'">
+                    <option value="BeiJing">北京市</option>
+                    <option value="TianJin">天津市</option>
+                    <option value="ShangHai">上海市</option>
+                    <option value="ChongQing">重庆市</option>
+                    <option value="HeBei">河北省</option>
+                    <option value="ShanXi">山西省</option>
+                    <option value="ShaanXi">陕西省</option>
+                    <option value="ShanDong">山东省</option>
+                    <option value="HeNan">河南省</option>
+                    <option value="LiaoNing">辽宁省</option>
+                    <option value="JiLin">吉林省</option>
+                    <option value="HeiLongJiang">黑龙江省</option>
+                    <option value="JiangSu">江苏省</option>
+                    <option value="ZheJiang">浙江省</option>
+                    <option value="AnHui">安徽省</option>
+                    <option value="JiangXi">江西省</option>
+                    <option value="FuJian">福建省</option>
+                    <option value="HuBei">湖北省</option>
+                    <option value="HuNan">湖南省</option>
+                    <option value="SiChuan">四川省</option>
+                    <option value="GuiZhou">贵州省</option>
+                    <option value="YunNan">云南省</option>
+                    <option value="GuangDong">广东省</option>
+                    <option value="HaiNan">海南省</option>
+                    <option value="QingHai">青海省</option>
+                </select>
+            </div>
+        </div>
+        <div class="form_item">
+            <label class="item_lebal">性&nbsp;&nbsp;别</label>
+            <div>
+                <input id="man" name="sex" type="radio"/>
+                <label for="man">男&nbsp;&nbsp;</label>
+                <input id="woman" name="sex" type="radio"/>
+                <label for="woman">女</label>
+            </div>
+        </div>
+        <div class="bt_div">
+            <input class="btn" type="submit" value="注册"/>
+        </div>
+        <div class="link">
+            <p>
+                <span>互联网出版许可证编号新出网证(京)字150号</span>
+                </br>
+                <span>Copyright © 2004 - 2018  京东JD.com 版权所有</span>
+                <span>Author: Lightwing Ng | Email: rodney_ng@iCloud.com</span>
+            </p>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
